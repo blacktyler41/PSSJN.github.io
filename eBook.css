@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+}
+#signup  {
+    background-image: linear-gradient(rgba(9, 5, 14, 0.3),rgba(5, 4, 46, 0.7)), url("image/muhabura\ view.jpg");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+   
+
+}
+#login {
+    background-image: linear-gradient(rgba(9, 5, 14, 0.3),rgba(5, 4, 46, 0.7)), url("image/muhabura\ view.jpg");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+.signup {
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background:aliceblue;
+    border-radius: 3px;
+}
+.login {
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background: aliceblue;
+    border-radius: 3px;
+}
+  h1 {
+    text-align: center;
+
+}
+ 
+ h4 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+ form  {
+    width: 300px;
+    margin-left: 5px;
+}
+ form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+ form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+
+}
+ form input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    color: aliceblue;
+    background: rgb(94, 61, 241);
+}
+ form p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
